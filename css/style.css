@@ -45,6 +45,50 @@ header nav ul li a:hover {
     padding: 10px;
 }
 
+.redes{
+    position: fixed;
+    right: 0;
+    top: 25%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: 7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook{
+    background: rgb(0, 132, 255);
+}
+
+.icon-instagram{
+    background: rgb(228, 107, 107);
+}
+
+.icon-twitter{
+    background: rgb(124, 180, 226);
+}
+
+.icon-name{
+    background: rgba(204, 218, 221, 0.9);
+}
+
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+
+}
+
 .rodape{
     text-align: center;
     align-self: center;
